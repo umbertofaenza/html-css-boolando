@@ -3,3 +3,59 @@
     margin: 0;
     padding: 0;
 }
+
+/** UTILS **/
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.justify-between {
+    justify-content: space-between;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+/** GENERICS **/
+
+header {
+    background-color: #ff6900;
+    padding: 25px 0;
+    box-shadow: 1px 1px 10px 1px #555;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+
+header a {
+    font-size: 1.3rem;
+}
+
+header .website-nav a {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+header img {
+    max-width: 10rem;
+}
