@@ -79,10 +79,15 @@ body {
     color: black;
     font-size: 2.5rem;
     padding: 5px 25px;
+    cursor: pointer;
 
     position: absolute;
     top: 2%;
     right: 0;
+}
+
+.like-item:hover {
+    color: red;
 }
 
 .img-hover {
