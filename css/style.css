@@ -20,12 +20,80 @@ body {
     display: flex;
 }
 
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
 .flex.justify-between {
     justify-content: space-between;
 }
 
 .flex.align-center {
     align-items: center;
+}
+
+.card {
+    width: calc(100% / 3 - 30px);
+    margin: 75px 10px 0 0;
+}
+
+.card-media {
+    position: relative;
+}
+
+.price {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: red;
+}
+
+.price.line-through {
+    color: black;
+    text-decoration: line-through;
+}
+
+.labels {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+}
+
+.discount, .sustainability {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.discount {
+    background-color: red;
+}
+
+.sustainability {
+    background-color: green;
+}
+
+.like-item {
+    background-color: white;
+    color: black;
+    font-size: 2.5rem;
+    padding: 5px 25px;
+
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card-media:hover .img-hover {
+    display: block;
 }
 
 /** GENERICS **/
@@ -58,4 +126,15 @@ header .website-nav a {
 
 header img {
     max-width: 10rem;
+}
+
+/* MAIN */
+
+.card h4 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.card h2 {
+    text-transform: uppercase;
 }
