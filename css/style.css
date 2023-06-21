@@ -102,6 +102,12 @@ header {
     background-color: #ff6900;
     padding: 25px 0;
     box-shadow: 1px 1px 10px 1px #555;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 a {
@@ -131,7 +137,7 @@ header img {
 /* MAIN */
 
 main {
-    padding-bottom: 75px;
+    padding: 85px 0 75px 0;
 }
 
 .card h4 {
