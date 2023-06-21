@@ -139,6 +139,10 @@ header img {
     max-width: 10rem;
 }
 
+.user-nav a {
+    padding: 0 5px;
+}
+
 /* MAIN */
 
 main {
@@ -178,4 +182,8 @@ footer a {
 .footer-socials {
     text-align: center;
     font-size: 1.2rem;
+}
+
+.footer-socials i {
+    font-size: 1.5rem;
 }
